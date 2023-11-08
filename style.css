@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+
+
 
 
 }
@@ -13,6 +20,10 @@ body {
   font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-family: 'Amatic SC', cursive;
   background-color: #E4EBDE;
+  font-family: 'Amatic SC', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 
 }
@@ -120,7 +131,7 @@ header ul li a:hover {
   transition: .3s;
   border-radius: 20px;
   margin-left: 10px;
-  font-family: "bootstrap-icons";
+  font-family: "Oswald";
 }
 
 .btn-contato button:hover {
@@ -214,7 +225,7 @@ header ul li a {
   color: #3e622c;
   text-decoration: none;
   font-weight: 500;
-  font-family: 'Amatic SC', cursive;
+  font-family:'Oswald', sans-serif;
 
 }
 
@@ -329,9 +340,9 @@ h1 {
 
 
 p {
-  padding: 0px;
+
   margin-top: 24px;
-  text-align: center;
+  text-align: justify;
   font-size: 26px;
 }
 
@@ -368,6 +379,7 @@ h2.titulo {
   font-size: 43px;
   padding: 50px;
   margin-left: 95px;
+  font-family: Oswald;
 }
 
 h2.titulo span {
@@ -517,20 +529,22 @@ section ul {
 
 section p {
   margin-bottom: 20px;
-  color: black;
+  color:black;
   margin-top: 26px;
   font-size: 24px;
   display: grid;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 section h2 {
   margin-bottom: 10px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Oswald', sans-serif;
   margin-top: 25px;
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-weight: 400;
   font-style: normal;
   letter-spacing: .1em;
+  color: #F2ECD6;
 }
 
 .res {
@@ -578,11 +592,12 @@ p.atividade {
 
 .depoimentos {
   background-color: #f2ecd6
+  
 }
 
 .titulo_depoimentos {
   color: #be4847;
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-weight: 400;
   font-style: normal;
   letter-spacing: .1em;
@@ -611,7 +626,9 @@ p.atividade {
 }
 
 .texto_depo {
-  margin-top: 35px;
+  margin-top: 105px;
+  font-family: "oswald";
+  
 
 }
 
@@ -630,20 +647,36 @@ p.atividade {
 
 }
 
+.testimonial-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonial {
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
 .imagefusca {
   flex: 1;
   max-width: 50%;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-left: 660px;
-  margin-top: 55px;
+  margin-left: 620px;
+
 }
 
 .name {
   color: black;
-  margin-left: 666px;
+  margin-left: 620px;
   font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .swiper {
@@ -651,3 +684,84 @@ p.atividade {
   height: 300px;
   background-color: antiquewhite;
 }
+
+.text-container_depo {
+  display: flex;
+  align-items: center;
+  /* Alinhar verticalmente */
+}
+
+.imagefusca {
+  max-width: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin-left: 20px;
+  /* Reduzi a margem esquerda */
+}
+
+.text-container_depo {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-left: 20px;
+  /* Adicionei margem esquerda para separar a imagem e a descrição */
+}
+
+.texto_depo {
+  font-family: 'Amatic SC';
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  /* Add your responsive styles here */
+}
+
+@media screen and (max-width: 992px) {
+  /* Styles for screens smaller than 992px */
+  /* Add your responsive styles here */
+}
+
+@media screen and (max-width: 1200px) {
+  /* Styles for screens smaller than 1200px */
+  /* Add your responsive styles here */
+}
+
+  .sobre-nos {
+      background-color: #3e622c;
+      padding: 50px 0;
+  }
+
+  .sobre-nos-container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+
+.sobre-nos-text {
+    width: 60%;
+    font-family: 'Oswald';
+    color: #F2ECD6;
+}
+
+  .sobre-nos-image {
+      width: 35%;
+  }
+
+  .sobre-nos-image img {
+      width: 100%;
+      border-radius: 8px;
+  }
+
+  h2 {
+      color: #333;
+  }
+
+.tex_p{
+  font-family: 'Oswald';
+  color: #F2ECD6;
+  font-size: 30px;
+
+}
+  
